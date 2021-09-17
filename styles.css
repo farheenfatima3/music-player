@@ -59,9 +59,9 @@ img{
     justify-content: space-around;
     align-items: center;
 }
-.material-icons{
+.fa{
    cursor:pointer;
-   /* filter:drop-shadow(0 3rem 3rem 0.5rem rgba(0,0,0,0.4)) */
+  
 }
 
 .icon-container #play{
