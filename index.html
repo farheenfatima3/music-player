@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Player</title>
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <button id="btn">Play</button>
- <a href="music/songOne.mp3">Play</a>
-</body>   
+    <div class="main-Container">
+    <div class="music-container">
+        <h1 class="title">Brown Munde</h1>
+        <h2 class="artist">Brown munde</h2>
+
+         <div>
+            <img class="image" src="images/songOne.jpg" alt="image of brown munde">
+        </div> 
+        <audio class="audio" src="music/songOne.mp3 "></audio>
+    
+    <!-- control -->
+    <div class="icon-container">
+      <i class="fa fa-backward" id="prev"></i>
+      <i class="fa fa-play" id="play"></i>
+      <i class="fa fa-forward" id="next"></i>
+
+
+    </div>
+</div>
+</div>
+</body>
 <script src="index.js"></script>
+
 </html>
