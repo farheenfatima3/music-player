@@ -119,6 +119,8 @@ playSound.addEventListener("timeupdate", (e) => {
      }
     else{
         durtn.textContent=`${0}:${0}${0}`
+        prgrs.style.width = `${0}%`;
+
     }
 
     //    current time update
@@ -130,6 +132,8 @@ playSound.addEventListener("timeupdate", (e) => {
     }
     if (duration) {
         crntTime.textContent = `${minCur}:${secCur}`;
+    }else{
+        crntTime.textContent = `${0}:${0}${0}`;
     }
 })
 
