@@ -116,6 +116,9 @@ playSound.addEventListener("timeupdate", (e) => {
     if (duration) {
 
         durtn.textContent = `${min}:${sec}`;
+     }
+    else{
+        durtn.textContent=`${0}:${0}${0}`
     }
 
     //    current time update
@@ -129,6 +132,7 @@ playSound.addEventListener("timeupdate", (e) => {
         crntTime.textContent = `${minCur}:${secCur}`;
     }
 })
+
 
 prgrsClick.addEventListener("click", (e) => {
     const {duration} = playSound
